@@ -1,0 +1,20 @@
+{
+    "name": "admingate/optimize",
+    "description": "Optimize page speed package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Admingate\\Optimize\\": "src"
+        }
+    },
+    "require": {
+        "admingate/admingate": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Admingate\\Optimize\\Providers\\OptimizeServiceProvider"
+            ]
+        }
+    }
+}
